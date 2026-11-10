@@ -461,7 +461,7 @@ struct CustomCameraView {
         frame.bufferType = TRTCVideoBufferType.TRTCVideoBufferType_Buffer;
         frame.width = YUV_WIDTH;
         frame.height = YUV_HEIGHT;
-        frame.rotatioin = TRTCVideoRotation.TRTCVideoRotation0;
+        frame.rotation = TRTCVideoRotation.TRTCVideoRotation0;
         frame.timestamp = this.trtc.generateCustomPTS();
         this.trtc.sendCustomVideoData(TRTCVideoStreamType.TRTCVideoStreamTypeBig, frame);
         this.frameCount++;

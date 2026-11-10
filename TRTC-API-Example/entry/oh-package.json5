@@ -6,6 +6,6 @@
   "author": "",
   "license": "",
   "dependencies": {
-    "@tencentcloud/liteavsdk_trtc": "file:libs/LiteAVSDK_TRTC_13.2.0.8732.har"
+    "@tencentcloud/liteavsdk_trtc": "13.6.9323"
   }
 }
